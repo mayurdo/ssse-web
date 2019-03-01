@@ -1,0 +1,17 @@
+
+ul > li {
+    list-style: none;
+    width: 25%;
+    float: left;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+ul > li > img{
+    width: 100%;
+    max-height: 180px;
+}
+
+h5{
+    padding-top: 6px;
+}
