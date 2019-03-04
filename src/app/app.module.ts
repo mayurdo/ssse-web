@@ -8,6 +8,7 @@ import { NavigationComponent } from './shared/components/navigation/navigation.c
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { CompletedProjectComponent } from './projects/components/completed-project/completed-project.component';
 import { CompanyOverviewComponent } from './about-us/company-overview/company-overview.component';
+import { VisionMissionComponent } from './about-us/vision-mission/vision-mission.component';
 
 
 @NgModule({
@@ -17,7 +18,8 @@ import { CompanyOverviewComponent } from './about-us/company-overview/company-ov
     NavigationComponent,
     FooterComponent,
     CompletedProjectComponent,
-    CompanyOverviewComponent
+    CompanyOverviewComponent,
+    VisionMissionComponent
   ],
   imports: [
     BrowserModule,
