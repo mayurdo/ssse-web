@@ -7,6 +7,7 @@ import { RouteModule } from './app.route';
 import { NavigationComponent } from './shared/components/navigation/navigation.component';
 import { FooterComponent } from './shared/components/footer/footer.component';
 import { CompletedProjectComponent } from './projects/components/completed-project/completed-project.component';
+import { CompanyOverviewComponent } from './about-us/company-overview/company-overview.component';
 
 
 @NgModule({
@@ -15,7 +16,8 @@ import { CompletedProjectComponent } from './projects/components/completed-proje
     HomeComponent,
     NavigationComponent,
     FooterComponent,
-    CompletedProjectComponent
+    CompletedProjectComponent,
+    CompanyOverviewComponent
   ],
   imports: [
     BrowserModule,
