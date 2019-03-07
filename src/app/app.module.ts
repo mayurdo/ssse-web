@@ -9,6 +9,7 @@ import { FooterComponent } from './shared/components/footer/footer.component';
 import { CompletedProjectComponent } from './projects/components/completed-project/completed-project.component';
 import { CompanyOverviewComponent } from './about-us/company-overview/company-overview.component';
 import { VisionMissionComponent } from './about-us/vision-mission/vision-mission.component';
+import { ContactUsComponent } from './components/contact-us/contact-us.component';
 
 
 @NgModule({
@@ -19,7 +20,8 @@ import { VisionMissionComponent } from './about-us/vision-mission/vision-mission
     FooterComponent,
     CompletedProjectComponent,
     CompanyOverviewComponent,
-    VisionMissionComponent
+    VisionMissionComponent,
+    ContactUsComponent
   ],
   imports: [
     BrowserModule,

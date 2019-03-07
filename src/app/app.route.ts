@@ -4,6 +4,7 @@ import { HomeComponent } from "./components/home/home.component";
 import { CompletedProjectComponent } from "./projects/components/completed-project/completed-project.component";
 import { CompanyOverviewComponent } from "./about-us/company-overview/company-overview.component";
 import { VisionMissionComponent } from "./about-us/vision-mission/vision-mission.component";
+import { ContactUsComponent } from "./components/contact-us/contact-us.component";
 
 const appRoutes: Routes = [
     {
@@ -22,6 +23,11 @@ const appRoutes: Routes = [
     {
         path: 'completed-project',
         component: CompletedProjectComponent
+    },
+
+    {
+        path: 'contact-us',
+        component: ContactUsComponent
     },
     {
         path: '',
