@@ -6,10 +6,10 @@
       aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <div class="collapse navbar-collapse" id="navbarResponsive">
+    <div class="collapse navbar-collapse" id="navbarResponsive" #navbarcollapse>
       <ul class="navbar-nav ml-auto">
         <li class="nav-item active">
-          <a class="nav-link" routerLink="/home">Home
+          <a class="nav-link" routerLink="/home" (click)="menuClick()">Home
             <span class="sr-only">(current)</span>
           </a>
         </li>
@@ -19,9 +19,9 @@
             About
           </a>
           <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-            <a class="dropdown-item" routerLink="/company-overview">Company Overview</a>
-            <a class="dropdown-item" href="#">Board Of Director</a>
-            <a class="dropdown-item" routerLink="/vision-mission">Vision/Mission</a>
+            <a class="dropdown-item" routerLink="/company-overview" (click)="menuClick()">Company Overview</a>
+            <a class="dropdown-item" routerLink="/company-overview">Board Of Director</a>
+            <a class="dropdown-item" routerLink="/vision-mission" (click)="menuClick()">Vision/Mission</a>
           </div>
         </li>
 
@@ -48,7 +48,7 @@
           </div>
         </li>
         <li class="nav-item">
-          <a class="nav-link" routerLink="/contact-us">Contact Us           
+          <a class="nav-link" routerLink="/contact-us" (click)="menuClick()">Contact Us           
           </a>
         </li>
       </ul>

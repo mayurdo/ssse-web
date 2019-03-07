@@ -5,6 +5,7 @@ import { CompletedProjectComponent } from "./projects/components/completed-proje
 import { CompanyOverviewComponent } from "./about-us/company-overview/company-overview.component";
 import { VisionMissionComponent } from "./about-us/vision-mission/vision-mission.component";
 import { ContactUsComponent } from "./components/contact-us/contact-us.component";
+import { BoardOfDirectorsComponent } from "./about-us/board-of-directors/board-of-directors.component";
 
 const appRoutes: Routes = [
     {
@@ -15,6 +16,10 @@ const appRoutes: Routes = [
     {
         path: 'company-overview',
         component: CompanyOverviewComponent
+    },
+    {
+        path: 'board-of-directors',
+        component: BoardOfDirectorsComponent
     },
     {
         path: 'vision-mission',

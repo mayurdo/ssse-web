@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ViewChild } from '@angular/core';
 
 @Component({
   selector: 'app-navigation',
@@ -9,7 +9,13 @@ export class NavigationComponent implements OnInit {
 
   constructor() { }
 
+  @ViewChild('navbarcollapse') navbarcollapse;
+
   ngOnInit() {
+  }
+
+  public menuClick() {
+    this.navbarcollapse.nativeElement.classList.remove("show")
   }
 
 }
