@@ -1,1 +1,50 @@
 /* You can add global styles to this file, and also import other style files */
+
+.owl-carousel .owl-nav .owl-prev{
+    position: absolute;
+    background-image: url(./assets/images/projects/project-arrow-left.png) !important;
+    width: 14px;
+    height: 19px;
+    top: 12px;
+    left: -30px;
+    opacity: 1;
+}
+
+.owl-carousel .owl-nav .owl-next{
+    position: absolute;
+    background-image: url(./assets/images/projects/project-arrow-right.png) !important;
+    width: 14px;
+    height: 19px;
+    top: 12px;
+    right: -30px;
+    opacity: 1;
+}
+
+.owl-carousel .owl-nav button.owl-next:hover
+{
+	background-image:url(./assets/images/projects/project-arrow-right.png);
+	background:transparent;
+}
+.owl-carousel .owl-nav button.owl-prev:hover
+{
+	background-image:url(./assets/images/projects/project-arrow-left.png);
+	background:transparent;
+}
+.owl-carousel .owl-nav button.owl-next:focus, .owl-carousel .owl-nav button.owl-prev:focus
+{
+	outline:none !important;
+}
+
+.owl-carousel .owl-stage-outer{
+    text-align: center;
+}
+
+
+@media (max-width: 576px){
+    .owl-carousel .owl-nav .owl-prev{
+        left: 0px;
+    }
+    .owl-carousel .owl-nav .owl-next{
+        right: 0px;
+    }
+}

@@ -1,3 +1,12 @@
+.project-tab{
+    width: 190px;
+    height: 55px;
+    background-color: lightgray;
+    border: 1px solid gray;
+    font-weight: 700;
+    font-size: 18px;
+}
+
 
 ul > li {
     list-style: none;

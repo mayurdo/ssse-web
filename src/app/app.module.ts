@@ -11,6 +11,7 @@ import { CompanyOverviewComponent } from './about-us/company-overview/company-ov
 import { VisionMissionComponent } from './about-us/vision-mission/vision-mission.component';
 import { ContactUsComponent } from './components/contact-us/contact-us.component';
 import { BoardOfDirectorsComponent } from './about-us/board-of-directors/board-of-directors.component';
+import { OwlModule } from 'ngx-owl-carousel';
 
 
 @NgModule({
@@ -27,7 +28,8 @@ import { BoardOfDirectorsComponent } from './about-us/board-of-directors/board-o
   ],
   imports: [
     BrowserModule,
-    RouteModule
+    RouteModule,
+    OwlModule
   ],
   providers: [],
   bootstrap: [AppComponent]
